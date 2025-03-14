@@ -3,7 +3,7 @@ Câu 13:
 - 2. Git add
     Git commit -m 'thêm trang chủ'
 -3 git branch -M main
-    git remote add origin https://github.com/empty240602/gitflow.git
+    git remote add origin https://github.com/empty240602/git-flow.git
     git push -u origin main
 -4 git switch -c develop
     git add .
