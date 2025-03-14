@@ -1,0 +1,25 @@
+Câu 13: 
+- 1. Git init
+- 2. Git add
+    Git commit -m 'thêm trang chủ'
+-3 git branch -M main
+    git remote add origin https://github.com/empty240602/gitflow.git
+    git push -u origin main
+-4 git switch -c develop
+    git add .
+    git commit -m 'tạo branch develop'
+    git push -u origin develop
+
+Mô phỏng thành viên A
+- Git clone https://github.com/empty240602/gitflow.git thanh_vien_a
+- git branch (kiểm tra xem có nhánh develop không)
+    + Nếu có thì git switch develop
+    + Nếu ch có thì thực hiện git switch -c develop
+- git switch -c feature/chuc-nang-1 từ nhánh develop
+- git add .
+- git commit -m 'thêm chức năng 1'
+- git pull 
+- git push -u origin feature/chuc-nang-1
+- git merge 
+
+
