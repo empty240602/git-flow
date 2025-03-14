@@ -12,14 +12,28 @@ Câu 13:
 
 Mô phỏng thành viên A
 - Git clone https://github.com/empty240602/gitflow.git thanh_vien_a
-- git branch (kiểm tra xem có nhánh develop không)
-    + Nếu có thì git switch develop
-    + Nếu ch có thì thực hiện git switch -c develop
+- git branch develop
+- git pull origin develop (Đảm bảo đang làm việc với bản mới nhất của develop)
 - git switch -c feature/chuc-nang-1 từ nhánh develop
 - git add .
 - git commit -m 'thêm chức năng 1'
 - git pull 
 - git push -u origin feature/chuc-nang-1
 - git merge 
+
+Mô phỏng thành viên B
+- Git clone https://github.com/empty240602/gitflow.git thanh_vien_b
+- git branch develop
+- git pull origin develop (Đảm bảo đang làm việc với bản mới nhất của develop)
+- git switch -c feature/chuc-nang-1 từ nhánh develop
+- git add .
+- git commit -m 'thêm chức năng 1'
+- git push -u origin feature/chuc-nang-1
+- git pull
+
+Mô phỏng Leader
+- git pull origin main (Đảm bảo đang làm việc với bản mới nhất của develop)
+- git switch -c release/v1.1
+- git push -u origin release/v1.1
 
 
