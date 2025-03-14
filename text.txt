@@ -36,4 +36,12 @@ Mô phỏng Leader
 - git switch -c release/v1.1
 - git push -u origin release/v1.1
 
+Mô phỏng thành viên B
+- Git add .
+- Git commit -m
+- git push
+
+Mô phỏng thành viên A
+- git switch -c 
+
 
